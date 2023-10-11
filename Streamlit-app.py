@@ -201,7 +201,7 @@ loan_tpye = np.array(['Non-Defaulter','Defaulter'])
 st.write(loan_tpye[prediction])
 
 st.subheader('Risk Level')
-st.write("The risk level(in %) is:", prediction_proba[0][1]*100)
+st.write("The risk level(%) is:", prediction_proba[0][1]*100)
 
 
 #Making some graphs
