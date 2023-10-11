@@ -28,7 +28,7 @@ st.image(image, use_column_width=True)
 expander_bar = st.expander("About")
 expander_bar.markdown("""
 * **Python libraries:** numpy, pandas, streamlit, scikit-learn, xgboost
-* **Ease of Access:** This have made this assignment on streamlit so that you could easily play with inputs and check weather the program is working properly or not.
+* **Ease of Access:** I have made this assignment on streamlit so that you could easily play with inputs and check weather the program is working properly or not.
 """)
 
 # Construct the file path to xgboost_model.pkl
